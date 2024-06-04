@@ -30,22 +30,37 @@ git config --global user.email email # 注意不要照抄
 brew install btop
 brew install fnm # manager Node.js version
 brew install font-jetbrains-mono
-brew install percona-toolkit # MySQL 运维工具
 brew install php
 brew install composer
-brew install tldr # 像 man 命令一样在终端查看命令的说明和使用例子
+brew install tldr # 像 man 命令一样在终端查看命令的说明和使用例子，可设置别名 alias iman='tldr'
 
 # 访达插件
-brew install --cask openinterminal # 在 Finder 打开终端，https://github.com/Ji4n1ng/OpenInTerminal，在访达随意右键到 Quick Actions 里添加工具栏按钮
+brew install --cask openinterminal # 在 Finder 打开终端，https://github.com/Ji4n1ng/OpenInTerminal，在访达任意地方右键，到 Quick Actions 里添加工具栏按钮
 brew install --cask qlmarkdown # 预览 Markdown
 brew install --cask qlstephen # 预览没有扩展名的纯文本文件
 brew install --cask --no-quarantine syntax-highlight # 代码高亮
 
 brew install --cask another-redis-desktop-manager
+brew install --cask dbeaver-community
+brew install --cask devtoys # 开发小工具集合，2022 年 9 月 18 日开始没维护
 brew install --cask font-hack-nerd-font
+brew install --cask iina # 媒体播放器
+brew install --cask iterm2
+brew install --cask kap # 录屏和 Gif
+brew install --cask mac-mouse-fix # 增强鼠标功能
 brew install --cask maczip
-brew install --cask macs-fan-control # 控制风扇
+brew install --cask mini-program-studio # 支付宝小程序开发者工具
+brew install --cask mongodb-compass
+brew install --cask neteasemusic # 网易云音乐
 brew install --cask picgo # 图床
+brew install --cask obsidian # 双链笔记
+brew install --cask postman
+brew install --cask raycast # 启动器
+brew install --cask rectangle # 管理窗口布局
+brew install --cask snipaste # 截图和贴图
+brew install --cask sourcetree # Git GUI
+brew install --cask switchhosts
+brew install --cask wechatwebdevtools # 微信开发者工具
 
 brew tap mac-cleanup/mac-cleanup-py
 brew install mac-cleanup-py # mac-cleanup [-c|-n]
@@ -84,11 +99,11 @@ jenv add xxx # 可以用 /usr/libexec/java_home 查看 xxx，一般在 /Library/
 
 ## App Store
 
-- [Bitwarden](https://apps.apple.com/cn/app/bitwarden/id1352778147?l=en-GB&mt=12) 密码管理器
-- [Bob](https://apps.apple.com/cn/app/bob-%E7%BF%BB%E8%AF%91%E5%92%8C-ocr-%E5%B7%A5%E5%85%B7/id1630034110?mt=12) 全局划词、截图 OCR 翻译
-- [Command X](https://apps.apple.com/us/app/command-x/id6448461551?mt=12) 访达剪切文件快捷键
-- [Gifski](https://apps.apple.com/cn/app/gifski/id1351639930?l=en-GB&mt=12) 视频转 Gif
-- [PasteNow](https://apps.apple.com/us/app/pastenow-instant-clipboard/id1552536109) 跨设备剪切板
+- [Bitwarden](https://apps.apple.com/cn/app/bitwarden/id1352778147?l=en-GB&mt=12) - 密码管理器
+- [Bob](https://apps.apple.com/cn/app/bob-%E7%BF%BB%E8%AF%91%E5%92%8C-ocr-%E5%B7%A5%E5%85%B7/id1630034110?mt=12) - 全局划词、截图 OCR 翻译
+- [Command X](https://apps.apple.com/us/app/command-x/id6448461551?mt=12) - 访达剪切文件快捷键
+- [Gifski](https://apps.apple.com/cn/app/gifski/id1351639930?l=en-GB&mt=12) - 视频转 Gif
+- [PasteNow](https://apps.apple.com/us/app/pastenow-instant-clipboard/id1552536109) - 跨设备剪切板
 - [Quantumult X](https://apps.apple.com/lr/app/quantumult-x/id1443988620)
 - [Telegram](https://apps.apple.com/cn/app/telegram/id747648890?l=en-GB&mt=12)
 - [WPS Office](https://apps.apple.com/cn/app/wps-office/id1443749478?mt=12)
@@ -97,43 +112,23 @@ jenv add xxx # 可以用 /usr/libexec/java_home 查看 xxx，一般在 /Library/
 
 ## 软件
 
-- [AlDente](https://github.com/AppHouseKitchen/AlDente-Charge-Limiter/releases) Charge Limiter
-- [[Capslock]] 增强 Caps 键功能，先安装 [Karabiner-Elements](https://karabiner-elements.pqrs.org/docs/getting-started/installation/)
+- [AlDente](https://github.com/AppHouseKitchen/AlDente-Charge-Limiter/releases) - 控制笔记本充电和放电
+- [Bartender 5](https://www.macbartender.com/) - 隐藏菜单栏图标
+- [Capslock](https://wangze.tech/Capslock) - 增强 Caps 键功能，先安装 [Karabiner-Elements](https://karabiner-elements.pqrs.org/docs/getting-started/installation/)
 - [Chrome](https://www.google.com/intl/zh-CN/chrome/)
-- [Clash Verge](https://github.com/clash-verge-rev/clash-verge-rev)
-- [DBeaver Community](https://dbeaver.io/download/)
-- [DevToys](https://github.com/DevToys-app/DevToysMac) 开发小工具集合，2022 年 9 月 18 日开始没维护
-- [Dozer](https://github.com/Mortennn/Dozer) 隐藏菜单栏图标
-- [IINA](https://iina.io/)
-- [iTerm2](https://iterm2.com/)
 - [JetBrains Toolbox](https://www.jetbrains.com/lp/toolbox/)
-- [Kap](https://getkap.co/)  录屏和 Gif
-- [Keyboardholder](https://keyboardholder.leavesc.com/) 自动切换输入法
-- [Mac Mouse Fix](https://macmousefix.com/) 增强鼠标功能
-- [MongoDB Compass](https://www.mongodb.com/try/download/compass)
-- [Obsidian](https://obsidian.md/download) 双链笔记
 - [Oh My Zsh](https://wangze.tech/Oh-My-Zsh)
 - [OneDrive](https://www.microsoft.com/zh-cn/microsoft-365/onedrive/download)
-- [OrbStack](https://orbstack.dev/dashboard) Docker 和虚拟机
-- [Postman](https://www.postman.com/downloads/)
-- [Raycast](https://www.raycast.com/) 启动器
-- [Rectangle](https://rectangleapp.com/) 管理窗口布局
-- [SwitchHosts](https://github.com/oldj/SwitchHosts/releases)
-- [Snipaste](https://www.snipaste.com/download.html) 截图和贴图
-- [Sourcetree](https://www.sourcetreeapp.com/) Git GUI
-- [Tencent Lemon](https://lemon.qq.com/) 系统清理工具
+- [OrbStack](https://orbstack.dev/dashboard) - Docker 和 Linux 虚拟机
+- [Tencent Lemon](https://lemon.qq.com/) - 系统清理工具
 - [Visual Studio Code](https://code.visualstudio.com/download)
-- [whistle](https://wproxy.org/whistle/install.html) 抓包工具
-- [Wireshark](https://www.wireshark.org/) 抓包工具（更多人推荐）
-- [网易云音乐](https://music.163.com/#/download)
 - [微信](https://mac.weixin.qq.com/?lang=zh_CN)
 - [微信输入法](https://z.weixin.qq.com/)
-- [微信开发者工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html)
-- [支付宝小程序开发者工具](https://opendocs.alipay.com/mini/ide/download)
 
 ## 系统设置
 
 - 打开
+
   - 三指拖移
   - 触控板手势 - 更多手势 -App Exposé - 四指向下清扫
   - 使窗口按应用程序成组
@@ -149,21 +144,17 @@ jenv add xxx # 可以用 /usr/libexec/java_home 查看 xxx，一般在 /Library/
   - Privacy & Security > Extensions > Added extensions > OneDrive > Finder extensions
 
 - 关闭
-  - 自动切换到文稿的输入法
   - 调度中心 - 根据最近的使用情况自动重新排列空间
   - iCloud - 同步桌面与文稿文件夹
   - 在程序坞中显示最近使用的应用程序
   - Spotlight
-  - Siri
 
 ## DNS
 
 - [阿里云](https://www.alidns.com/knowledge?type=SETTING_DOCS#user_ios)
-  - 主：`223.5.5.5`
-  - 备：`223.6.6.6`
+  - `223.5.5.5`
 - [DNSPod](https://www.dnspod.cn/products/publicdns)
-  - 主：`119.29.29.29`
-  - 备：`182.254.116.116`
+  - `119.29.29.29`
 
 ## Github
 
