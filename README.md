@@ -35,9 +35,8 @@ brew install qlstephen # 预览没有扩展名的纯文本文件
 brew install syntax-highlight # 代码高亮
 
 brew install another-redis-desktop-manager
-brew install bruno # API客户端
 brew install btop
-brew install dbeaver-community # 暂不用
+brew install dbeaver-community
 brew install fnm # 管理Node.js版本
 brew install font-hack-nerd-font
 brew install font-jetbrains-mono
@@ -51,10 +50,9 @@ brew install neteasemusic # 网易云音乐
 brew install picgo # 图床
 brew install obsidian # 双链笔记
 brew install postman # API客户端
-brew install raycast # 启动器
 brew install rectangle # 管理窗口布局
 brew install snipaste # 截图和贴图
-brew install sourcetree # Git GUI
+brew install sourcetree # Git客户端
 brew install switchhosts
 brew install tldr # 像man命令一样在终端查看命令的说明和使用例子，可设置别名alias iman='tldr'
 brew install wechatwebdevtools # 微信开发者工具
@@ -100,11 +98,9 @@ jenv add xxx # 可以用/usr/libexec/java_home查看xxx，一般在/Library/Java
 
 - [Bob](https://apps.apple.com/cn/app/bob-%E7%BF%BB%E8%AF%91%E5%92%8C-ocr-%E5%B7%A5%E5%85%B7/id1630034110?mt=12) - 全局划词、截图OCR翻译
 - [Command X](https://apps.apple.com/us/app/command-x/id6448461551?mt=12) - 访达剪切文件快捷键
-- [Gifski](https://apps.apple.com/cn/app/gifski/id1351639930?l=en-GB&mt=12) - 视频转Gif
 - [iBar](https://apps.apple.com/cn/app/ibar-menubar-icon-control-tool/id6443843900?l=en-GB&mt=12) - 隐藏菜单栏图标
 - [PasteNow](https://apps.apple.com/us/app/pastenow-instant-clipboard/id1552536109) - 跨设备剪切板
 - [Quantumult X](https://apps.apple.com/lr/app/quantumult-x/id1443988620)
-- [Telegram](https://apps.apple.com/cn/app/telegram/id747648890?l=en-GB&mt=12)
 - [WPS Office](https://apps.apple.com/cn/app/wps-office/id1443749478?mt=12)
 - [滴答清单](https://apps.apple.com/cn/app/%E6%BB%B4%E7%AD%94%E6%B8%85%E5%8D%95-%E4%B8%93%E6%B3%A8%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86%E5%92%8C%E6%97%A5%E5%8E%86%E6%8F%90%E9%86%92%E4%BA%8B%E9%A1%B9/id966085870?mt=12)
 - [腾讯会议](https://apps.apple.com/cn/app/tencent-meeting/id1484048379?l=en-GB)
@@ -112,22 +108,17 @@ jenv add xxx # 可以用/usr/libexec/java_home查看xxx，一般在/Library/Java
 ## 软件
 
 - [AlDente](https://github.com/AppHouseKitchen/AlDente-Charge-Limiter/releases) - 控制笔记本电池充电和放电
-- [Capslock](https://wangze.tech/Capslock%EF%BC%9A%E5%A2%9E%E5%BC%BAMac%E7%9A%84Caps%E9%94%AE%E5%8A%9F%E8%83%BD) - 增强Caps键功能
+- [[Capslock增强Mac的Caps键功能|Capslock]] - 增强Caps键功能
 - [Chrome](https://www.google.com/intl/zh-CN/chrome/)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 - [JetBrains Toolbox](https://www.jetbrains.com/lp/toolbox/)
 - [Navicat Premium Lite](https://www.navicat.com/en/download/navicat-premium-lite#macos) - 数据库管理工具，免费
-- [Oh My Zsh](https://wangze.tech/Mac%E5%AE%89%E8%A3%85oh-my-zsh)
 - [OneDrive](https://www.microsoft.com/zh-cn/microsoft-365/onedrive/download)
-- [OrbStack](https://orbstack.dev/dashboard) - Docker和Linux 虚拟机
+- [Raycast](https://www.raycast.com/) - 启动器
 - [Tencent Lemon](https://lemon.qq.com/) - 系统清理工具
 - [Visual Studio Code](https://code.visualstudio.com/download)
 - [微信](https://mac.weixin.qq.com/?lang=zh_CN)
 - [微信输入法](https://z.weixin.qq.com/)
-
-## 工具网站
-
-- [IT Tools - Handy online tools for developers](https://it-tools.tech/)
-- [帮小忙，腾讯 QQ 浏览器在线工具箱平台](https://tool.browser.qq.com/)
 
 ## 系统设置
 
@@ -155,8 +146,8 @@ jenv add xxx # 可以用/usr/libexec/java_home查看xxx，一般在/Library/Java
 
 ## DNS
 
-- [DNSPod](https://www.dnspod.cn/products/publicdns)：`119.29.29.29`
-- [阿里云](https://www.alidns.com/knowledge?type=SETTING_DOCS#user_ios)：`223.5.5.5`
+- [腾讯云DNSPod](https://www.dnspod.cn/products/publicdns)：119.29.29.29
+- [阿里云](https://www.alidns.com/knowledge?type=SETTING_DOCS#user_ios)：223.5.5.5
 
 ## Github
 
@@ -171,7 +162,7 @@ Host github.com
 ## iCloud
 
 ```bash
-# crontab -e定时kill iCloud进程，会自动重启，确保iCloud同步正常
+# crontab -e定时kill iCloud进程，iCloud会自动重启，确保iCloud同步正常
 */10 * * * * killall bird && killall cloudd
 ```
 
@@ -196,7 +187,6 @@ Host github.com
 
 ## Chrome
 
-- 访问一次 [google.com/ncr](https://google.com/ncr)，避免Google自动重定向
-- 设置扩展允许预加载网页：uBlock Origin，Decentraleyes
-- F12 进入 DevTools，Setting > Experiments > Redesign of the filter bar in the Network Panel，关闭，效果：
+- 访问一次[google.com/ncr](https://google.com/ncr)，避免Google自动重定向
+- F12进入DevTools，Setting > Experiments > Redesign of the filter bar in the Network Panel，关闭，效果：
   - ![image.png](https://cdn.jsdelivr.net/gh/11ze/static/images/20240428233857.png)
